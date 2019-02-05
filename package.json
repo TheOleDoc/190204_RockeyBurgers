@@ -1,0 +1,24 @@
+{
+  "name": "hamburger_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOleDoc/190204_RockeyBurgers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOleDoc/190204_RockeyBurgers/issues"
+  },
+  "homepage": "https://github.com/TheOleDoc/190204_RockeyBurgers#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
