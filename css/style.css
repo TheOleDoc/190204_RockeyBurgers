@@ -1,2 +1,5 @@
 html, body {
   width: 100%; }
+
+nav {
+  padding-bottom: 10px; }
