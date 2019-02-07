@@ -1,2 +1,6 @@
 html, body {
   width: 100%; }
+
+mainTitle {
+  display: flexx;
+  justify-content: center; }
