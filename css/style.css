@@ -3,6 +3,9 @@ html, body {
   font-family: 'Averia Sans Libre', cursive;
   background-color: white; }
 
+.modal-content {
+  background-color: #3c3d41; }
+
 #footer-rocky-burger-logo-text {
   padding-top: 1.2em; }
 
