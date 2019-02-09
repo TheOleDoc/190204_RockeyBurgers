@@ -2,6 +2,16 @@ html, body {
   width: 100%;
   font-family: 'Averia Sans Libre', cursive;
 }
+#burger-hero {
+  height: 40em;
+  width: 80%;
+}
+.heroJpg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 #locations {
   padding-top: 1em;
   padding-bottom: 1em;
