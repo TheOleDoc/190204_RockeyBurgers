@@ -1,5 +1,6 @@
 html, body {
-  width: 100%; }
+  width: 100%;
+  font-family: 'Averia Sans Libre', cursive; }
 
 #container_nav {
   width: 100%;
