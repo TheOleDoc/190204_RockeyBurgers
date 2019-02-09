@@ -2,6 +2,9 @@ html, body {
   width: 100%;
   font-family: 'Averia Sans Libre', cursive; }
 
+.location-ul {
+  list-style-type: none; }
+
 #menu-shake-kids {
   padding-top: 1em;
   padding-bottom: 1em; }
