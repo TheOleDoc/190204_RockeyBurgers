@@ -40,6 +40,10 @@ html, body {
   padding-top: 1em;
   padding-bottom: 1em; }
 
+#nav-logo {
+  height: 4em;
+  width: 40; }
+
 #container_nav {
   width: 100%;
   padding: 0%; }
