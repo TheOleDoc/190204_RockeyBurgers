@@ -30,9 +30,11 @@ html, body {
   flex-direction: column;
   align-items: center; }
 
+#locations-lehi-box, #locations-provo-box, #locations-sandy-box, #locations-dntn-box {
+  padding-top: 3em; }
+
 #locations-title {
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-top: 1em; }
 
 #locations {
   padding-top: 1em;
