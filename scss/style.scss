@@ -3,7 +3,19 @@ html, body {
   font-family: 'Averia Sans Libre', cursive;
   background-color: white;
 }
-
+p {
+  font-size: 1.15em;
+}
+.about-main {
+  padding-top: 3em;
+  padding-right: 3em;
+  padding-bottom: 0em;
+  padding-left: 3em;
+}
+#about-quote {
+  color: #D59539;
+  padding: 2em;
+}
 #faq-main-container {
   justify-items: center;
   width: 100%;
