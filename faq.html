@@ -64,20 +64,75 @@
         <!--Menu Bar End-->
         <!--Header-Title-->
         <header>
-            <div class="container" id="jobs-subt-jobs">
+            <div class="container" id="faq-subt">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12 text-center">
-                        <h1><strong>Jobs</strong></h1>
-                        <h3>Join our great team!</h3>
+                        <h1><strong>Frequently Asked Questions</strong></h1>
                     </div>
                 </div>
             </div>
         </header>
         <!--END-Header-Title-->
         <!--Main Content-->
-            <main>
+        <main id="faq-main-container">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Why is your Rockey Burger so Expensive?
+                            </button>
+                        </h5>
+                    </div>
 
-            </main>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>We focus on making meals with the best and freshest ingredients, like
+                                humanely-raised beef that is ground fresh each day, organic chicken,
+                                and Rockey Family Dairy’s organic cream for our ice cream cones,
+                                sundaes and shakes.</p>
+
+                            <p>Our commitment to freshness and quality means higher prices than
+                                you’d find at traditional fast-food burger chains. It also means food
+                                that tastes way better — because, well, it is.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Where does your beef come from?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>We source our humanely-raised, vegetarian-fed beef from local,
+                                family-owned ranches. We use an 85% to 15% protein to fat blend, a
+                                mixture of the lean protein and the marbling found on in a cut of steak
+                                for our ground beef. The mixture is ground daily, and thus, our
+                                burgers taste so amazing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you have a cool video for me to watch?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Why, yes, yes we do!</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/wduZHtRbSkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <!--Footer-->
         <div class="content">
         </div>
