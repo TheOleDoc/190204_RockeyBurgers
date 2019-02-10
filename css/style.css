@@ -6,6 +6,12 @@ html, body {
 p {
   font-size: 1.15em; }
 
+hr {
+  width: 75%; }
+
+h1, h4 {
+  color: #D59539; }
+
 .about-main {
   padding-top: 3em;
   padding-right: 3em;
@@ -96,6 +102,9 @@ p {
 #menu-subt-fries {
   padding-top: 1em;
   padding-bottom: 1em; }
+
+.menu-toppings {
+  padding-top: 0.5em; }
 
 #menu-subt-burgers {
   padding-top: 1em;
