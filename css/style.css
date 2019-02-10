@@ -3,6 +3,9 @@ html, body {
   font-family: 'Averia Sans Libre', cursive;
   background-color: white; }
 
+.btn-primary {
+  background-color: #D59539; }
+
 #jobs-form-container {
   padding-left: 8em;
   padding-right: 8em; }
