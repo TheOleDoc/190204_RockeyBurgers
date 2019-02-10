@@ -4,12 +4,12 @@ html, body {
   background-color: white;
 }
 #jobs-form-container {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 #jobs-subt-jobs {
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 #modal-title {
   padding-left: 1.4em;
@@ -29,6 +29,10 @@ html, body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+#locations-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 #locations {
   padding-top: 1em;
